@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{ border-radius: 25px;
+    border: 1px solid black;
+    text-align:center;
+    background-color: white;}
+    tr,
+    td{
+        border: 1px solid black;
+        background-color:white;
+        box-shadow: 5px 10px #888888
+    }
+    
+    
+
+.highly-transparent {
+    filter: opacity(50%);
+}
+table td{
+    padding: 10px;
+    text-align: center;
+
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.thirdrow>td>img{
+    filter :sepia(30%)
+}
+
+</style>
+<body>
+    <table class="center" cellspacing="30" cellpadding="15">
+        <tr class="transparent">
+            <td><img src="https://picsum.photos/id/237/300/200" alt=""></td>
+            <td><img src="https://picsum.photos/id/238/300/200" alt=""></td>
+            <td><img src="https://picsum.photos/id/239/300/200" alt=""></td>
+        </tr>
+        <tr class="highly-transparent" cellspacing="30">
+            <td><img src="https://picsum.photos/id/240/300/200"></td>
+            <td><img src="https://picsum.photos/id/241/300/200"></td>
+            <td><img src="https://picsum.photos/id/242/300/200"></td>
+        </tr>
+        <tr class="thirdrow" cellspacing="30">
+            <td><img src="https://picsum.photos/id/250/300/200"></td>
+            <td><img src="https://picsum.photos/id/251/300/200"></td>
+            <td><img src="https://picsum.photos/id/252/300/200"></td>
+        </tr>
+    </table>
+</body>
+</html>

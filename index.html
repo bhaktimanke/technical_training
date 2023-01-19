@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Live Virtual Class</title>
+</head>
+<style>
+    h1{position: relative;
+        animation-name: moveit;
+        /* animation-duration:20s; */
+        animation:moveit 20s linear 0s infinite alternate;
+     }
+    nav ul li {display:inline; margin:5px;}
+    footer ul li {display:inline; margin:5px;}
+    footer{
+        background-color: #ADD8E6;
+        
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:160px;
+        }
+    form{background-color:#ADD8E6} 
+    .fa:hover {
+            opacity: 0.9;
+        }
+  
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+    .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+  
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+  
+        .fa {
+            padding:10px;
+            font-size: 20px;
+            width:20px;
+            text-decoration: none;
+            margin: 5px 80px;
+            border-radius: 25px;
+        }
+
+
+        footer > p{
+            margin-left: 30px;
+        }
+     
+        .ficons{
+            text-align: center;
+            padding-top:30px;
+        }
+        .deco{
+            text-align: center;
+        }
+        .deco>ul>li>a{
+            text-decoration:none;
+            margin-left:60px;
+        }
+        .deco>ul>li>a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        iframe{
+            margin-left:100px;
+        }
+        @keyframes moveit {
+        from {left: 5%;}
+        to   {left: 100%;}
+    }
+    a:hover {
+  background-color: lightblue;
+}
+</style>
+<body>
+    <header style="background-image: url(./images/group-portrait-adorable-puppies_53876-64778.jpeg); 
+    height: 35vh;">
+        <pre>
+        <h1 style="text-align: center;">LIVE VIRTUAL CLASS </h1>
+       </header>
+    </pre>
+    <nav class="deco">
+		<ul>
+			<li><a href="home.html" target="iframe_a">Home</a></li>
+			<li><a href="form.html" target="iframe_a">About us</a></li>
+			<li><a href="graphics.html" target="iframe_a">Registration</a></li>
+            <li><a href="blog.html" target="iframe_a">Photo Gallery</a></li>
+            <li><a href="blog1.html" target="iframe_a">Blog</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html" target="iframe_a">Contact us</a></li>
+
+		</ul>
+	</nav>
+
+    <section>
+
+ <iframe style="text-align:center" height= "500px" width="1300px" name="iframe_a" title="iframe example"></iframe>
+    
+
+    </section>
+
+    <footer>
+		
+        
+        <p class="ficons">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-reddit"></a>
+        </p>
+        <p>&copy; 2019  All rights reserved.</p>
+        <p style="text-align: center;"> Website by: Bhakti Saphal Manakapure</p>
+        
+	</footer>
+       
+
+
+</body>
+</html>
