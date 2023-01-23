@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Live Virtual Class</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<style>
+    h1{position: relative;
+        animation-name: moveit;
+        /* animation-duration:20s; */
+        animation:moveit 20s linear 0s infinite alternate;
+     }
+    nav ul li {display:inline; margin:5px;}
+    footer ul li {display:inline; margin:5px;}
+    footer{
+        background-color: #ADD8E6;
+        
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:160px;
+        }
+    form{background-color:#ADD8E6} 
+    .fa:hover {
+            opacity: 0.9;
+        }
+  
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+    .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+  
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+  
+        .fa {
+            padding:10px;
+            font-size: 20px;
+            width:40px;
+            text-decoration: none;
+            margin: 5px 80px;
+            border-radius: 20PX;
+        }
+
+
+        footer > p{
+            margin-left: 30px;
+        }
+     
+        .ficons{
+            text-align: center;
+            padding-top:30px;
+        }
+        .deco{
+            text-align: center;
+        }
+        .deco>ul>li>a{
+            text-decoration:none;
+            margin-left:60px;
+        }
+        .deco>ul>li>a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+        iframe{
+            margin-left:100px;
+        }
+        @keyframes moveit {
+        from {left: 5%;}
+        to   {left: 100%;}
+    }
+    a:hover {
+  background-color: lightblue;
+}
+</style>
+<body>
+    <!-- <header style="background-image: url(./images/group-portrait-adorable-puppies_53876-64778.jpeg); 
+    height: 35vh; width: auto;">
+        <pre>
+        <h1 style="text-align: center;">LIVE VIRTUAL CLASS </h1>
+       </header> -->
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="height: 800px;" src="./images/220805-border-collie-play-mn-1100-82d2f1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>    </h5>
+              <p>Live Virtual class</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 800px;" src="./images/group-portrait-adorable-puppies_53876-64778.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Live Virtual class</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 800px;" src="./images/puppy-2785074__340.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Live Virtual class</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </pre>
+    <nav class="deco">
+		<ul>
+			<li><a href="home.html" target="iframe_a">Home</a></li>
+			<li><a href="form.html" target="iframe_a">About us</a></li>
+			<li><a href="graphics.html" target="iframe_a">Registration</a></li>
+            <li><a href="blog.html" target="iframe_a">Photo Gallery</a></li>
+            <li><a href="blog1.html" target="iframe_a">Blog</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html" target="iframe_a">Contact us</a></li>
+
+		</ul>
+	</nav>
+
+    <section>
+
+ <iframe style="text-align:center" height= "500px" width="1300px" name="iframe_a" title="iframe example"></iframe>
+    
+
+    </section>
+
+    <footer>
+		
+        
+        <p class="ficons">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-reddit"></a>
+        </p>
+        <p>&copy; 2019  All rights reserved.</p>
+        <p style="text-align: center;"> Website by: Bhakti Saphal Manakapure</p>
+        
+	</footer>
+       
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function jfun2()
+        { 
+var x=parseInt(empform.salary.value);
+var choice=document.getElementById("perfselect").value;
+if(choice=="A"){
+    empform.bonus1.value=0.3*x;
+    empform.totalsalary.value=x+0.3*x;
+
+}
+if(choice=='B')
+{
+    empform.bonus1.value=0.1*x;
+    empform.totalsalary.value=x+0.1*x;
+}
+
+if(choice=='C')
+{
+    empform.bonus1.value=0;
+    empform.totalsalary.value=x;
+}
+//document.getElementById("bonus1")=empform.bonus1.value;
+        }
+        function jfun3() {
+            
+            var choice=document.getElementById("perfselect").value;
+            if(choice=='A')
+           { window.open("welcome.html","","width=100,height=100");}
+            
+        }
+    </script>
+<style>
+    .empperf{
+        background-color: lightgoldenrodyellow;
+        padding: 20px;
+        border-radius: 25px;
+        max-width: 80vh;
+    }
+</style>
+</head>
+<body>
+    <h1> Bonus Calculation :</h1>
+    <div class="empperf">
+          <form name="empform" action="" > <br>
+              <label for="username">Name:</label>
+              <input type="text" name="username"> <br> <br>
+              
+              <label for="salary">Salary</label>
+              <input type="text" name="salary"><br><br>
+              Performance:
+              <select id ="perfselect" onchange="jfun2()" onclick="jfun3()" >
+                <option value="Please choose" selected>Please choose</option>
+                <option value="A" >A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+              </select><br><br>
+              <div class="empcal">
+                <label for="bonus1">bonus:</label>
+                <input type="text" name="bonus1" id="bonus1">
+                <label for="totsalary">Total Salary:</label>
+                <input type="text" name="totalsalary" id="totalsalary">
+                <br><br>
+                
+               
+          </form>  
+
+</div>
+</body>
+</html>

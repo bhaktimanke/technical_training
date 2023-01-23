@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+function csub(){
+        var mathmarks=frm1.mathmarks.value;
+        var engmarks=frm1.engmarks.value;
+        var compmarks=frm1.compmarks.value;
+        var marks;
+        document.getElementById("tmarks").value=parseInt(mathmarks)+parseInt(engmarks)+parseInt(compmarks);
+        document.getElementById("permarks").value=(parseInt(mathmarks)+parseInt(engmarks)+parseInt(compmarks))/3;
+        document.getElementById("Maxmarks").value=Math.max(parseInt(mathmarks),parseInt(engmarks),parseInt(compmarks));
+        document.getElementById("Minmarks").value=Math.min(parseInt(mathmarks),parseInt(engmarks),parseInt(compmarks));
+        
+      }
+
+
+    </script>
+    <style>
+        
+    </style>
+</head>
+<body >
+    
+    <h1> Student Marks Detail:</h1>
+    <div>
+          <form name="frm1" action="" > <br>
+              <label for="username">Name:</label>
+              <input type="text" name="username"> <br> <br>
+              <label for="marks">Marks:</label> <br> <br>
+              <label for="maths">Maths</label>
+              <input type="text" name="mathmarks">
+              <label for="english">English</label>
+              <input type="text" name="engmarks">
+              <label for="computer">Computer</label>
+              <input type="text" name="compmarks">
+              <br> <br>
+      
+              <label for="totalmarks">Total Marks</label>
+              <input type="text" name="totalmarks" id="tmarks">
+              <label for="permarks">% Marks</label>
+              <input type="text" name="permarks" id="permarks"> <br> <br>
+              <label for="Maxmarks">Maxmarks</label>
+              <input type="text" name="Maxmarks" id="Maxmarks"><br><br>
+              <label for="Minmarks">Minmarks</label>
+              <input type="text" name="Minmarks" id="Minmarks"><br><br>
+              <input type="button" value="Submit" onclick="return csub();">
+              
+          </form>
+         </div>
+
+    </form>
+</body>
+</html>
