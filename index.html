@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <title>Live Virtual Class</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<style>
+    h1{position: relative;
+        animation-name: moveit;
+        /* animation-duration:20s; */
+        animation:moveit 20s linear 0s infinite alternate;
+     }
+    nav ul li {display:inline; margin:5px;}
+    footer ul li {display:inline; margin:5px;}
+    footer{
+        background-color: #ADD8E6;
+        
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height:160px;
+        }
+    form{background-color:#ADD8E6} 
+    .fa:hover {
+            opacity: 0.9;
+        }
+  
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+    .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+  
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+  
+        .fa {
+            padding:10px;
+            font-size: 20px;
+            width:40px;
+            text-decoration: none;
+            margin: 5px 80px;
+            border-radius: 20PX;
+        }
+
+
+        footer > p{
+            margin-left: 30px;
+        }
+     
+        .ficons{
+            text-align: center;
+            padding-top:30px;
+        }
+        .deco{
+            text-align: center;
+        }
+        .deco>ul>li>a{
+            text-decoration:none;
+            position: relative;
+            top: 7px;
+            margin-left:60px;
+            color: #000;
+            margin-top: 40px;
+        }
+        .deco>ul>li>a:hover{
+            color: #F7F9F9;
+            text-decoration: underline;
+        }
+        iframe{
+            margin-left:100px;
+        }
+        @keyframes moveit {
+        from {left: 5%;}
+        to   {left: 100%;}
+    }
+
+
+  .carousel-inner img{
+    opacity: 0.5;
+  }
+  .carousel-inner h5,p{
+    color: #000;
+  }
+  .footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #EDBB99;
+  color: white;
+  text-align: center;
+  }
+  .nav-bootstrap a{
+    color: #F7F9F9;
+  }
+
+</style>
+<body>
+    <!-- <header style="background-image: url(./images/group-portrait-adorable-puppies_53876-64778.jpeg); 
+    height: 35vh; width: auto;">
+        <pre>
+        <h1 style="text-align: center;">LIVE VIRTUAL CLASS </h1>
+       </header> -->
+       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="height: 800px;" src="./images/220805-border-collie-play-mn-1100-82d2f1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5> A Building With Four Walls And Tomorrow Inside.   </h5>
+              <p>Live Virtual class</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 800px;" src="./images/group-portrait-adorable-puppies_53876-64778.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A community with high expectation and high academic achievement.</h5>
+              <p>Live Virtual class</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img style="height: 800px;" src="./images/puppy-2785074__340.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A high achieving multicultural community for learning.</h5>
+              <p>Live Virtual class</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </pre>
+    <!-- <nav class="deco" style="background-color: #CCD1D1; height: 40px;">
+		<ul>
+			<li><a class="nav-op1" href="home.html" target="iframe_a">Home</a></li>
+			<li><a class="nav-op2" href="form.html" target="iframe_a">About us</a></li>
+			<li><a class="nav-op3" href="graphics.html" target="iframe_a">Registration</a></li>
+            <li><a class="nav-op4" href="blog.html" target="iframe_a">Photo Gallery</a></li>
+            <li><a class="nav-op5" href="blog1.html" target="iframe_a">Blog</a></li>
+            <li><a class="nav-op6" href="help.html">Help</a></li>
+            <li><a class="nav-op7" href="contact.html" target="iframe_a">Contact us</a></li>
+
+		</ul>
+	</nav> -->
+  <nav id="nav-bootstrap" class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">EDUloyal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html" target="iframe_a">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html" target="iframe_a">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="graphics.html" role="button"  target="iframe_a">
+              Registration
+            </a>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html" target="iframe_a">Photo Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog1.html" target="iframe_a">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target="iframe_a">Contact Us</a>
+            </li>
+
+            
+          </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+    <section>
+
+ <iframe style="text-align:center" height= "1200px" width="1300px" name="iframe_a" title="iframe example"></iframe>
+    
+
+    </section>
+
+    <footer class="footer">
+		
+        
+        <p class="ficons">
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-reddit"></a>
+        </p>
+        <p>&copy; 2019  All rights reserved.</p>
+        <p style="text-align: center;"> Website by: Bhakti Saphal Manakapure</p>
+        
+	</footer>
+       
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</html>
